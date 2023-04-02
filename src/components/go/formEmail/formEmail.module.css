@@ -1,0 +1,40 @@
+.formContent {
+  width: 100%;
+  max-width: 492px;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  max-width: 431px;
+}
+
+.error {
+  font-family: 'Gotham Rounded Light';
+  font-style: normal;
+  font-weight: 325;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e02d3c;
+  position: absolute;
+  bottom: -20px;
+}
+
+.errorActive {
+  font-family: 'Gotham Rounded Light';
+  font-style: normal;
+  font-weight: 325;
+  font-size: 14px;
+  line-height: 17px;
+  color: green;
+  position: absolute;
+  bottom: -20px;
+}

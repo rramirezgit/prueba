@@ -1,0 +1,27 @@
+.social {
+  width: 492px;
+  display: flex;
+  gap: 12px;
+  padding: 12px 0px;
+}
+
+.constainerExpanded {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  gap: 12px;
+  border-radius: 25px;
+}
+
+.icons {
+  width: 18.24px;
+  height: 18.24px;
+}
+
+@media (max-width: 900px) {
+  .social {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+}
