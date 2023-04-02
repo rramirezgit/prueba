@@ -5,7 +5,13 @@ import Expanded, { StyledIconButton } from './expanded'
 import { Box, useMediaQuery } from '@mui/material'
 
 const IconSocial = ({ item, index }: any) => (
-  <StyledIconButton aria-label="social-media" key={index}>
+  <StyledIconButton
+    aria-label="social-media"
+    key={index}
+    onClick={() => {
+      window.open(item.href, '_blank')
+    }}
+  >
     <Image alt={item.name} height={18.24} src={item.url} width={18.24} />
   </StyledIconButton>
 )

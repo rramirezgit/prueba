@@ -1,22 +1,22 @@
-import FormEmail from '@/components/go/formEmail'
-import SocialMediaIcons from '@/components/go/socialMediaIcons'
-import style from './go.module.css'
-import cel from '@/assets/animation/go/cel.json'
+import style from './comming-soon.module.css'
+import cel from '@/assets/animation/comming-soon/cel.json'
 import LottiePlayer from '@/components/common/lottiePlayer'
-import imgTop from '@/assets/img/go/GroupTop.svg'
-import imgBottom from '@/assets/img/go/GroupBottom.svg'
+import imgTop from '@/assets/img/comming-soon/GroupTop.svg'
+import imgBottom from '@/assets/img/comming-soon/GroupBottom.svg'
 import Head from 'next/head'
-import GoLayout from './layout'
+import CommingSoonLayout from './components/layout'
 import { Typography } from '@mui/material'
 import Image from 'next/image'
+import SocialMediaIcons from './components/socialMediaIcons'
+import FormEmail from './components/formEmail'
 
-export default function Home() {
+export default function CommingSoon() {
   return (
     <>
       <Head>
-        <title>Go</title>
+        <title>ADAC Comming Soon</title>
       </Head>
-      <GoLayout>
+      <CommingSoonLayout>
         <div className={style.content}>
           <div className={style.info}>
             <Typography className={style.title}>
@@ -35,7 +35,7 @@ export default function Home() {
             <LottiePlayer animationData={cel} id="lottie-go" />
           </div>
         </div>
-      </GoLayout>
+      </CommingSoonLayout>
     </>
   )
 }

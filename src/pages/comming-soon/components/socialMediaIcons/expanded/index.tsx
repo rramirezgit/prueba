@@ -58,7 +58,12 @@ const Expanded = () => {
             container={containerRef.current}
           >
             {item.name !== 'left' ? (
-              <StyledIconButton aria-label="social-media">
+              <StyledIconButton
+                aria-label="social-media"
+                onClick={() => {
+                  window.open(item.href, '_blank')
+                }}
+              >
                 <Image
                   alt={item.name}
                   height={18.24}

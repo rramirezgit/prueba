@@ -1,8 +1,12 @@
 import Image from 'next/image'
-import logo from '@/assets/img/go/logo.svg'
-import style from './go.module.css'
+import logo from '@/assets/img/comming-soon/logo.svg'
+import style from '../comming-soon.module.css'
 
-export default function GoLayout({ children }: { children: React.ReactNode }) {
+export default function CommingSoonLayout({
+  children
+}: {
+  children: React.ReactNode
+}) {
   return (
     <>
       <div className={style.main}>

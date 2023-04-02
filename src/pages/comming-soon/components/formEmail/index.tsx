@@ -2,9 +2,9 @@ import { Box } from '@mui/material'
 import { Formik, Form, FormikHelpers, ErrorMessage } from 'formik'
 import Styles from './formEmail.module.css'
 import * as yup from 'yup'
-import { postPresubscription } from '@/services/go'
-import { typePresuscription } from '@/services/go/types'
 import { StyledButton, StyledInput } from './styled'
+import { postPresubscription } from '@/services/comming-soon'
+import { typePresuscription } from '@/services/comming-soon/types'
 
 const validationSchema = yup.object({
   email: yup.string().email('Correo no válido').required('Ingrese un email')
