@@ -13,34 +13,30 @@ const IconSocial = ({ item, index }: any) => (
 export default function SocialMediaIcons() {
   const matches = useMediaQuery('(min-width:900px)')
 
-  return (
-    <>
-      <div className={styles.social}>
-        {Icons.map((item, index) => {
-          return (
-            <>
-              {!matches && item.name !== 'left' ? (
-                <IconSocial item={item} index={index} />
-              ) : (
-                index <= 3 && <IconSocial item={item} index={index} />
-              )}
-            </>
-          )
-        })}
+  function shouldRenderIcon(index: number) {
+    return index > 3
+  }
 
-        {
-          <Box
-            sx={{
-              display: {
-                xs: 'none',
-                md: 'block'
-              }
-            }}
-          >
-            <Expanded />
-          </Box>
-        }
-      </div>
-    </>
+  function renderIcons() {
+    return Icons.map((item, index) => {
+      if (shouldRenderIcon(index)) return null
+      return <div key={index}>{<IconSocial item={item} index={index} />}</div>
+    })
+  }
+
+  function renderIconsMobile() {
+    return Icons.map((item, index) => {
+      if (item.name === 'left') return null
+      return <div key={index}>{<IconSocial item={item} index={index} />}</div>
+    })
+  }
+
+  return (
+    <div className={styles.social}>
+      {!matches ? renderIconsMobile() : renderIcons()}
+      <Box sx={{ display: { xs: 'none', md: 'block' } }}>
+        <Expanded />
+      </Box>
+    </div>
   )
 }

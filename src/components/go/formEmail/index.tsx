@@ -1,45 +1,36 @@
-import { Box, Button, TextField, styled } from '@mui/material'
+import { Box } from '@mui/material'
 import { Formik, Form, FormikHelpers, ErrorMessage } from 'formik'
 import Styles from './formEmail.module.css'
 import * as yup from 'yup'
+import { postPresubscription } from '@/services/go'
+import { typePresuscription } from '@/services/go/types'
+import { StyledButton, StyledInput } from './styled'
 
-interface Values {
-  email: string
-}
 const validationSchema = yup.object({
   email: yup.string().email('Correo no válido').required('Ingrese un email')
 })
 
-const StyledInput = styled(TextField)({
-  '& .MuiInputBase-root': {
-    width: '100%',
-    height: '42px',
-    '&::after': {
-      borderBottom: '2px solid var(--primary_yellow)'
-    }
-  }
-})
-
-const StyledButton = styled(Button)({
-  width: '92px',
-  height: '42px',
-  background: 'var(--primary_yellow)',
-  '&:hover': {
-    background: 'var(--primary_yellow)'
-  }
-})
-
 export default function FormEmail(): JSX.Element {
+  const handleSubmit = (
+    values: typePresuscription,
+    { setErrors }: FormikHelpers<typePresuscription>
+  ) => {
+    postPresubscription(values)
+      .then(() => {
+        setErrors({ email: 'Se ha enviado exitosamente!' })
+      })
+      .catch(() => {
+        setErrors({ email: 'Error al enviar el correo' })
+      })
+  }
+
   return (
     <>
       <Formik
         initialValues={{
           email: ''
         }}
-        onSubmit={(values: Values, { setErrors }: FormikHelpers<Values>) => {
-          console.log(values)
-          setErrors({ email: 'Se ha enviado exitosamente!' })
-        }}
+        onSubmit={handleSubmit}
         validationSchema={validationSchema}
       >
         {({ errors, handleChange }) => (
