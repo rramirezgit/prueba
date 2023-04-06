@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '@/assets/img/comming-soon/logo.svg'
+import logo from '@/assets/img/logo.svg'
 import style from '../comming-soon.module.css'
 
 export default function CommingSoonLayout({
