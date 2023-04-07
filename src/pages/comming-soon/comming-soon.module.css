@@ -1,37 +1,3 @@
-.main {
-  background: url(../../assets/img/comming-soon/bg.svg) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  min-width: 383px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
-}
-
-.body {
-  width: 100%;
-  min-width: 383px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav {
-  background-color: transparent;
-  padding: 40px 52px 0px;
-  max-width: var(--width);
-  width: 100%;
-}
-
-.nav img {
-  width: 169px;
-  height: 61.44px;
-}
-
 .content {
   display: flex;
   justify-content: center;
@@ -104,11 +70,6 @@
 }
 
 @media (max-width: 1200px) {
-  .nav img {
-    width: 115.53px;
-    height: 42px;
-  }
-
   .content {
     padding: 0px 100px;
     gap: 50px;
@@ -147,15 +108,6 @@
 }
 
 @media (max-width: 974px) {
-  .nav {
-    padding: 30px 26px 50px;
-  }
-
-  .main {
-    height: auto;
-    min-height: 100vh;
-    justify-content: flex-start;
-  }
   .content {
     display: flex;
     flex-direction: column;
