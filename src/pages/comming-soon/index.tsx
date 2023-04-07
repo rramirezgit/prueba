@@ -4,11 +4,10 @@ import LottiePlayer from '@/components/common/lottiePlayer'
 import imgTop from '@/assets/img/comming-soon/GroupTop.svg'
 import imgBottom from '@/assets/img/comming-soon/GroupBottom.svg'
 import Head from 'next/head'
-import CommingSoonLayout from './components/layout'
-import { Typography } from '@mui/material'
 import Image from 'next/image'
-import SocialMediaIcons from './components/socialMediaIcons'
-import FormEmail from './components/formEmail'
+import CommingSoonLayout from '@/components/commingSoon/layout'
+import FormEmail from '@/components/commingSoon/formEmail'
+import SocialMediaIcons from '@/components/commingSoon/socialMediaIcons'
 
 export default function CommingSoon() {
   return (
@@ -19,13 +18,13 @@ export default function CommingSoon() {
       <CommingSoonLayout>
         <div className={style.content}>
           <div className={style.info}>
-            <Typography className={style.title}>
+            <div className={style.title}>
               ¡Vuélvete la persona más interesante del lugar!
-            </Typography>
-            <Typography className={style.text}>
+            </div>
+            <div className={style.text}>
               Únete a nuestro newsletter para recibir las noticias mas
               relevantes antes que cualquiera!
-            </Typography>
+            </div>
             <FormEmail />
             <SocialMediaIcons />
           </div>

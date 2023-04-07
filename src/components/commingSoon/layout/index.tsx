@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import logo from '@/assets/img/comming-soon/logo.svg'
-import style from '../comming-soon.module.css'
+import style from './layoutCommingSoon.module.css'
 
 export default function CommingSoonLayout({
   children

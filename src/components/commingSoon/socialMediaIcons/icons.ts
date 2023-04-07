@@ -1,6 +1,6 @@
 import socialMediaIcons from '@/assets/img/icons/socialMedia'
 
-const Icons = [
+export const icons = [
   {
     name: 'instagram',
     url: socialMediaIcons.instagram,
@@ -40,5 +40,3 @@ const Icons = [
     url: socialMediaIcons.left
   }
 ]
-
-export default Icons

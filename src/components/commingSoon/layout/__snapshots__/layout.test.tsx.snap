@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommingSoonLayout snapshot 1`] = `
+<div
+  className="main"
+>
+  <nav
+    className="nav"
+  >
+    <img
+      alt="logo"
+      data-nimg="1"
+      decoding="async"
+      height={40}
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+      srcSet="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+      style={
+        {
+          "color": "transparent",
+        }
+      }
+      width={40}
+    />
+  </nav>
+  <div
+    className="body"
+  >
+    <div>
+      Test
+    </div>
+  </div>
+</div>
+`;

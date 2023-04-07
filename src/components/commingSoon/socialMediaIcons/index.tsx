@@ -1,6 +1,6 @@
 import styles from './socialMedia.module.css'
 import Image from 'next/image'
-import Icons from './icons'
+import { icons } from './icons'
 import Expanded, { StyledIconButton } from './expanded'
 import { Box, useMediaQuery } from '@mui/material'
 
@@ -24,14 +24,14 @@ export default function SocialMediaIcons() {
   }
 
   function renderIcons() {
-    return Icons.map((item, index) => {
+    return icons.map((item, index) => {
       if (shouldRenderIcon(index)) return null
       return <div key={index}>{<IconSocial item={item} index={index} />}</div>
     })
   }
 
   function renderIconsMobile() {
-    return Icons.map((item, index) => {
+    return icons.map((item, index) => {
       if (item.name === 'left') return null
       return <div key={index}>{<IconSocial item={item} index={index} />}</div>
     })

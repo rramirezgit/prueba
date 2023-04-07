@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const nextJest = require('next/jest')
 
 const createJestConfig = nextJest({
@@ -9,14 +8,14 @@ const createJestConfig = nextJest({
 // Add any custom config to be passed to Jest
 const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-  testEnvironment: 'jsdom',
-  testPathIgnorePatterns: ['mocks', '/next.config.js'],
-  collectCoverage: true,
-  setupFiles: ['jest-canvas-mock'],
-  moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1'
-  },
+  testEnvironment: 'jest-environment-jsdom',
+  roots: ['<rootDir>/src'],
+  testMatch: [
+    '**/__tests__/**/*.+(ts|tsx|js)',
+    '**/?(*.)+(spec|test).+(ts|tsx|js)'
+  ],
   coverageReporters: ['html', 'text', 'text-summary'],
+  transformIgnorePatterns: ['/node_modules/'],
   coverageThreshold: {
     global: {
       statements: 20.0,
@@ -25,10 +24,14 @@ const customJestConfig = {
       lines: 20.0
     }
   },
-  globals: {
-    'ts-jest': {
-      isolatedModules: true
-    }
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1'
+  },
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],
+  transform: {
+    '^.+\\.(js|jsx)$': 'ts-jest'
   }
 }
 

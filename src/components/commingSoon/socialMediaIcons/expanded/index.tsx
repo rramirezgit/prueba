@@ -4,7 +4,7 @@ import { colors } from '@/styles/variables'
 import { Slide, IconButton, styled } from '@mui/material'
 import Image from 'next/image'
 import styles from '../socialMedia.module.css'
-import Icons from '../icons'
+import { icons } from '../icons'
 
 export const StyledIconButton = styled(IconButton)(() => ({
   backgroundColor: colors.secondary_blue,
@@ -48,7 +48,7 @@ const Expanded = () => {
         />
       </StyledIButtonExpand>
 
-      {Icons.map((item, index) => {
+      {icons.map((item, index) => {
         if (index <= 3) return null
         return (
           <Slide

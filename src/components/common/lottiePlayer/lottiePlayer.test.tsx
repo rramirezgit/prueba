@@ -1,14 +1,11 @@
-/* snapshot */
-
-import LottiePlayer from '@/components/common/lottiePlayer'
-import cel from '@/assets/animation/comming-soon/cel.json'
-import { render } from '@testing-library/react'
+import renderer from 'react-test-renderer'
+import LottiePlayer from './'
 
 describe('LottiePlayer', () => {
-  it('should render successfully', () => {
-    const { baseElement } = render(
-      <LottiePlayer animationData={cel} id="lottie-go" />
+  test('renders correctly', () => {
+    const component = renderer.create(
+      <LottiePlayer animationData={{}} style={{}} id="lottie" />
     )
-    expect(baseElement).toBeTruthy()
+    expect(component.toJSON()).toMatchSnapshot()
   })
 })
