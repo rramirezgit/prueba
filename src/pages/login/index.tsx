@@ -1,11 +1,11 @@
+import LoginForm from '@/components/login/forms/login'
+import DeskLayout from '@/components/login/layout/desktop'
+import MobileLayout from '@/components/login/layout/mobile'
 import { useMediaQuery } from '@mui/material'
 import React from 'react'
-import DeskLayout from './components/layout/desktop'
-import MobileLayout from './components/layout/mobile'
-import LoginForm from './components/forms/login'
 
 const Login = () => {
-  const mobile = useMediaQuery('(min-width: 980px)')
+  const mobile = useMediaQuery('(min-width: 900px)')
 
   return (
     <>

@@ -1,0 +1,42 @@
+.link {
+  color: var(--primary_blue);
+  font-size: 16px;
+  font-family: 'Gotham Rounded Bold';
+  text-decoration: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 35px;
+}
+
+.checks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.checkContainer {
+  width: 100%;
+  position: relative;
+}
+
+.error {
+  font-family: 'Gotham Rounded Light';
+  font-style: normal;
+  font-weight: 325;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e02d3c;
+  position: absolute;
+  bottom: -15px;
+  left: 34px;
+}

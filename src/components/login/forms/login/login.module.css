@@ -1,0 +1,14 @@
+.footer {
+  font-family: 'Gotham Rounded Light';
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 700;
+}
+
+.forgotPassword {
+  color: var(--primary_blue);
+  font-size: 14px;
+  text-decoration: none;
+}
