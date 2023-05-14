@@ -1,6 +1,7 @@
 interface Colors {
   primary_text: string
   secondary_text: string
+  gray_text: string
   primary_blue: string
   primary_yellow: string
   secondary_blue: string
@@ -11,6 +12,8 @@ interface Colors {
   warning: string
   success: string
   info: string
+  bg_info_login: string
+  white: string
 }
 
 export const sizes = {
@@ -21,6 +24,7 @@ export const colors: Colors = {
   // text //
   primary_text: '#29394E',
   secondary_text: '#B7C9CF',
+  gray_text: '#616F81',
 
   // primary //
   primary_blue: '#39C0CC',
@@ -36,5 +40,7 @@ export const colors: Colors = {
   error: '#E02D3C',
   warning: '#ffbf8a',
   success: '#27AE60',
-  info: '#a9d4f7'
+  info: '#a9d4f7',
+  bg_info_login: '#F2F5F6',
+  white: '#FFFFFF'
 }
