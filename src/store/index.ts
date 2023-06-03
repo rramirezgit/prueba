@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 import logupReducer from './slices/logup'
+import newsletterReducer from './slices/newsletter'
 
 export const store = configureStore({
   reducer: {
-    logup: logupReducer
+    logup: logupReducer,
+    newsletter: newsletterReducer
   },
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({

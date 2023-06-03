@@ -30,7 +30,9 @@
     "@/.next/types/**/*.ts",
     "next.config.js",
     "jest.config.js",
-    "jest.setup.js"
+    "jest.setup.js",
+    "src/components/newsletter/forms/header/text",
+    "src/components/newsletter/forms/header/img"
   ],
   "exclude": ["node_modules"]
 }

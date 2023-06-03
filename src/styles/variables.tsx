@@ -14,6 +14,7 @@ interface Colors {
   info: string
   bg_info_login: string
   white: string
+  bg_secondary: string
 }
 
 export const sizes = {
@@ -35,6 +36,9 @@ export const colors: Colors = {
   secondary_blue: '#9CDFE5',
   secondary_yellow: '#FDEBBA',
   secondary_gray: '#E5E5E5',
+
+  // Backgrounds //
+  bg_secondary: '#e8e8e8',
 
   // else //
   error: '#E02D3C',
