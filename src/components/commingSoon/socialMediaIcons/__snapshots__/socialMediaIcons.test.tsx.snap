@@ -4,751 +4,310 @@ exports[`SocialMediaIcons renders correctly 1`] = `
 <div
   className="social"
 >
-  <div>
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css vfnjat"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css og9f8k-MuiIconButton-root"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-    />
-    <button
-      aria-label="social-media"
-      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onContextMenu={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      type="button"
-    >
-      <img
-        alt="instagram"
-        data-nimg="1"
-        decoding="async"
-        height={18.24}
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-        srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-        style={
-          {
-            "color": "transparent",
-          }
-        }
-        width={18.24}
-      />
-    </button>
-  </div>
-  <div>
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css vfnjat"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css og9f8k-MuiIconButton-root"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-    />
-    <button
-      aria-label="social-media"
-      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onContextMenu={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      type="button"
-    >
-      <img
-        alt="twitter"
-        data-nimg="1"
-        decoding="async"
-        height={18.24}
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-        srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-        style={
-          {
-            "color": "transparent",
-          }
-        }
-        width={18.24}
-      />
-    </button>
-  </div>
-  <div>
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css vfnjat"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css og9f8k-MuiIconButton-root"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-    />
-    <button
-      aria-label="social-media"
-      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onContextMenu={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      type="button"
-    >
-      <img
-        alt="TikTok"
-        data-nimg="1"
-        decoding="async"
-        height={18.24}
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-        srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-        style={
-          {
-            "color": "transparent",
-          }
-        }
-        width={18.24}
-      />
-    </button>
-  </div>
-  <div>
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css vfnjat"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css og9f8k-MuiIconButton-root"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-    />
-    <button
-      aria-label="social-media"
-      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onContextMenu={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      type="button"
-    >
-      <img
-        alt="linkedIn"
-        data-nimg="1"
-        decoding="async"
-        height={18.24}
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-        srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-        style={
-          {
-            "color": "transparent",
-          }
-        }
-        width={18.24}
-      />
-    </button>
-  </div>
-  <div>
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css vfnjat"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css og9f8k-MuiIconButton-root"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-    />
-    <button
-      aria-label="social-media"
-      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onContextMenu={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      type="button"
-    >
-      <img
-        alt="facebook"
-        data-nimg="1"
-        decoding="async"
-        height={18.24}
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-        srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-        style={
-          {
-            "color": "transparent",
-          }
-        }
-        width={18.24}
-      />
-    </button>
-  </div>
-  <div>
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css vfnjat"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css og9f8k-MuiIconButton-root"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-    />
-    <button
-      aria-label="social-media"
-      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onContextMenu={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      type="button"
-    >
-      <img
-        alt="Discord"
-        data-nimg="1"
-        decoding="async"
-        height={18.24}
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-        srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-        style={
-          {
-            "color": "transparent",
-          }
-        }
-        width={18.24}
-      />
-    </button>
-  </div>
-  <div>
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css vfnjat"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css og9f8k-MuiIconButton-root"
-    />
-    <style
-      dangerouslySetInnerHTML={
-        {
-          "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
-        }
-      }
-      data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-    />
-    <button
-      aria-label="social-media"
-      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onContextMenu={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      type="button"
-    >
-      <img
-        alt="Reddit"
-        data-nimg="1"
-        decoding="async"
-        height={18.24}
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-        srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-        style={
-          {
-            "color": "transparent",
-          }
-        }
-        width={18.24}
-      />
-    </button>
-  </div>
   <style
     dangerouslySetInnerHTML={
       {
-        "__html": "@media (min-width:0px){.css-13tqxrv{display:none;}}@media (min-width:900px){.css-13tqxrv{display:block;}}",
+        "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
       }
     }
-    data-emotion="css 13tqxrv"
+    data-emotion="css vfnjat"
   />
-  <div
-    className="MuiBox-root css-13tqxrv"
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css og9f8k-MuiIconButton-root"
+  />
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+  />
+  <button
+    aria-label="social-media"
+    className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
   >
-    <div
-      className="constainerExpanded"
-    >
-      <style
-        dangerouslySetInnerHTML={
-          {
-            "__html": ".css-163bcql{background-color:#F1F1F1;width:36.47px;height:36.47px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;border-radius:25px;position:relative;z-index:1;}.css-163bcql:hover{background-color:#E5E5E5;}",
-          }
+    <img
+      alt="instagram"
+      data-nimg="1"
+      decoding="async"
+      height={18.24}
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+      srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+      style={
+        {
+          "color": "transparent",
         }
-        data-emotion="css 163bcql"
-      />
-      <style
-        dangerouslySetInnerHTML={
-          {
-            "__html": ".css-19l20ws-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#F1F1F1;width:36.47px;height:36.47px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;border-radius:25px;position:relative;z-index:1;}.css-19l20ws-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-19l20ws-MuiIconButton-root:hover{background-color:transparent;}}.css-19l20ws-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-19l20ws-MuiIconButton-root:hover{background-color:#E5E5E5;}",
-          }
+      }
+      width={18.24}
+    />
+  </button>
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css vfnjat"
+  />
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css og9f8k-MuiIconButton-root"
+  />
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+  />
+  <button
+    aria-label="social-media"
+    className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <img
+      alt="twitter"
+      data-nimg="1"
+      decoding="async"
+      height={18.24}
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+      srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+      style={
+        {
+          "color": "transparent",
         }
-        data-emotion="css 19l20ws-MuiIconButton-root"
-      />
-      <style
-        dangerouslySetInnerHTML={
-          {
-            "__html": ".css-d20pum-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#F1F1F1;width:36.47px;height:36.47px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;border-radius:25px;position:relative;z-index:1;}.css-d20pum-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-d20pum-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-d20pum-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-d20pum-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-d20pum-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-d20pum-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-d20pum-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#E5E5E5;}",
-          }
+      }
+      width={18.24}
+    />
+  </button>
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css vfnjat"
+  />
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css og9f8k-MuiIconButton-root"
+  />
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+  />
+  <button
+    aria-label="social-media"
+    className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <img
+      alt="TikTok"
+      data-nimg="1"
+      decoding="async"
+      height={18.24}
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+      srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+      style={
+        {
+          "color": "transparent",
         }
-        data-emotion="css d20pum-MuiButtonBase-root-MuiIconButton-root"
-      />
-      <button
-        aria-label="social-media"
-        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-d20pum-MuiButtonBase-root-MuiIconButton-root"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onContextMenu={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex={0}
-        type="button"
-      >
-        <img
-          alt="right"
-          data-nimg="1"
-          decoding="async"
-          height={18.24}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-          srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-          style={
-            {
-              "color": "transparent",
-            }
-          }
-          width={18.24}
-        />
-      </button>
-      <style
-        dangerouslySetInnerHTML={
-          {
-            "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
-          }
+      }
+      width={18.24}
+    />
+  </button>
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css vfnjat"
+  />
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css og9f8k-MuiIconButton-root"
+  />
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+  />
+  <button
+    aria-label="social-media"
+    className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <img
+      alt="linkedIn"
+      data-nimg="1"
+      decoding="async"
+      height={18.24}
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+      srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+      style={
+        {
+          "color": "transparent",
         }
-        data-emotion="css vfnjat"
-      />
-      <style
-        dangerouslySetInnerHTML={
-          {
-            "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
-          }
+      }
+      width={18.24}
+    />
+  </button>
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-vfnjat{background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-vfnjat:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css vfnjat"
+  />
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-og9f8k-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-og9f8k-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-og9f8k-MuiIconButton-root:hover{background-color:transparent;}}.css-og9f8k-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-og9f8k-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css og9f8k-MuiIconButton-root"
+  />
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
+      }
+    }
+    data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+  />
+  <button
+    aria-label="social-media"
+    className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <img
+      alt="facebook"
+      data-nimg="1"
+      decoding="async"
+      height={18.24}
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+      srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+      style={
+        {
+          "color": "transparent",
         }
-        data-emotion="css og9f8k-MuiIconButton-root"
-      />
-      <style
-        dangerouslySetInnerHTML={
-          {
-            "__html": ".css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9CDFE5;width:36.47px;height:36.47px;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-gx6j7b-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#39C0CC;}",
-          }
-        }
-        data-emotion="css gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-      />
-      <button
-        aria-label="social-media"
-        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onContextMenu={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        style={
-          {
-            "visibility": "hidden",
-          }
-        }
-        tabIndex={0}
-        type="button"
-      >
-        <img
-          alt="facebook"
-          data-nimg="1"
-          decoding="async"
-          height={18.24}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-          srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-          style={
-            {
-              "color": "transparent",
-            }
-          }
-          width={18.24}
-        />
-      </button>
-      <button
-        aria-label="social-media"
-        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onContextMenu={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        style={
-          {
-            "visibility": "hidden",
-          }
-        }
-        tabIndex={0}
-        type="button"
-      >
-        <img
-          alt="Discord"
-          data-nimg="1"
-          decoding="async"
-          height={18.24}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-          srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-          style={
-            {
-              "color": "transparent",
-            }
-          }
-          width={18.24}
-        />
-      </button>
-      <button
-        aria-label="social-media"
-        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-gx6j7b-MuiButtonBase-root-MuiIconButton-root"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onContextMenu={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        style={
-          {
-            "visibility": "hidden",
-          }
-        }
-        tabIndex={0}
-        type="button"
-      >
-        <img
-          alt="Reddit"
-          data-nimg="1"
-          decoding="async"
-          height={18.24}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-          srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-          style={
-            {
-              "color": "transparent",
-            }
-          }
-          width={18.24}
-        />
-      </button>
-      <style
-        dangerouslySetInnerHTML={
-          {
-            "__html": ".css-1nbev77{background-color:#F1F1F1;width:36.47px;height:36.47px;display:none;}.css-1nbev77:hover{background-color:#E5E5E5;}",
-          }
-        }
-        data-emotion="css 1nbev77"
-      />
-      <style
-        dangerouslySetInnerHTML={
-          {
-            "__html": ".css-18jjqep-MuiIconButton-root{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#F1F1F1;width:36.47px;height:36.47px;display:none;}.css-18jjqep-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-18jjqep-MuiIconButton-root:hover{background-color:transparent;}}.css-18jjqep-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-18jjqep-MuiIconButton-root:hover{background-color:#E5E5E5;}",
-          }
-        }
-        data-emotion="css 18jjqep-MuiIconButton-root"
-      />
-      <style
-        dangerouslySetInnerHTML={
-          {
-            "__html": ".css-vah005-MuiButtonBase-root-MuiIconButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;overflow:visible;color:rgba(0, 0, 0, 0.54);-webkit-transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#F1F1F1;width:36.47px;height:36.47px;display:none;}.css-vah005-MuiButtonBase-root-MuiIconButton-root::-moz-focus-inner{border-style:none;}.css-vah005-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-vah005-MuiButtonBase-root-MuiIconButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-vah005-MuiButtonBase-root-MuiIconButton-root:hover{background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-vah005-MuiButtonBase-root-MuiIconButton-root:hover{background-color:transparent;}}.css-vah005-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{background-color:transparent;color:rgba(0, 0, 0, 0.26);}.css-vah005-MuiButtonBase-root-MuiIconButton-root:hover{background-color:#E5E5E5;}",
-          }
-        }
-        data-emotion="css vah005-MuiButtonBase-root-MuiIconButton-root"
-      />
-      <button
-        aria-label="social-media"
-        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-vah005-MuiButtonBase-root-MuiIconButton-root"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onContextMenu={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        style={
-          {
-            "visibility": "hidden",
-          }
-        }
-        tabIndex={0}
-        type="button"
-      >
-        <img
-          alt="left"
-          data-nimg="1"
-          decoding="async"
-          height={18.24}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
-          srcSet="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
-          style={
-            {
-              "color": "transparent",
-            }
-          }
-          width={18.24}
-        />
-      </button>
-    </div>
-  </div>
+      }
+      width={18.24}
+    />
+  </button>
 </div>
 `;
