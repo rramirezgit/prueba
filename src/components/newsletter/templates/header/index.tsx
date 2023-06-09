@@ -57,10 +57,12 @@ const HeaderTemplate = ({
             </div>
           </>
         )}
-        <div
-          dangerouslySetInnerHTML={{ __html: Texto }}
-          className={styles.texto}
-        />
+        {Texto && Texto !== '<p><br></p>' && (
+          <div
+            dangerouslySetInnerHTML={{ __html: Texto }}
+            className={styles.texto}
+          />
+        )}
       </div>
     </>
   )

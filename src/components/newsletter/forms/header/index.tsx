@@ -1,52 +1,38 @@
-import BasicTabs from '@/components/common/BasicTabs'
-import { TextalignLeft, Brush2, Gallery } from 'iconsax-react'
-import React from 'react'
-import TextHeader from './text'
-import ImgHeader from './img'
-import ColorsHeader from './color'
-import { useEffect } from 'react'
-import { useDispatch } from 'react-redux'
-import { setValue } from '@/store/slices/newsletter'
+import { Formik } from 'formik'
+import React, { useEffect } from 'react'
+import initialValues from './initialValues'
+import validationSchema from './validationSchema'
+import HeaderOptions from './HeaderOptions'
+import { useSelector } from 'react-redux'
+import { RootState } from '@/store'
 
-const HeaderTemplateFrom = ({ values }: any) => {
-  const dispatch = useDispatch()
+const HeaderForm = () => {
+  const {
+    templates: { news },
+    templateIdEditing
+  } = useSelector((state: RootState) => state.newsletter)
 
-  useEffect(() => {
-    dispatch(setValue(values))
-  }, [values])
+  const inialValuesForm = initialValues(templateIdEditing, news)
+  const validationSchemaForm = validationSchema()
 
   return (
-    <BasicTabs
-      tabs={[
-        {
-          index: 0,
-          icon: <TextalignLeft size="20" variant="Broken" />
-        },
-        {
-          index: 1,
-          icon: <Brush2 size="20" />
-        },
-        {
-          index: 2,
-          icon: <Gallery size="20" variant="Outline" />
-        }
-      ]}
-      tabPanels={[
-        {
-          index: 0,
-          Panel: TextHeader
-        },
-        {
-          index: 1,
-          Panel: ColorsHeader
-        },
-        {
-          index: 2,
-          Panel: ImgHeader
-        }
-      ]}
-    />
+    <Formik
+      initialValues={inialValuesForm}
+      onSubmit={values => {
+        console.log(values)
+      }}
+      validationSchema={validationSchemaForm}
+    >
+      {({ values }) => {
+        // console.log({ values })
+        return (
+          <>
+            <HeaderOptions values={values} />
+          </>
+        )
+      }}
+    </Formik>
   )
 }
 
-export default HeaderTemplateFrom
+export default HeaderForm

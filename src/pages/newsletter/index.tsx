@@ -1,23 +1,40 @@
 import React from 'react'
 import styles from './newsletter.module.css'
-import { CardEdit } from 'iconsax-react'
-import { Fab } from '@mui/material'
-import { colors } from '@/styles/variables'
-import FormNewsletter from '@/components/newsletter/forms'
 import HeaderTemplate from '@/components/newsletter/templates/header'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import TemplatesOptions from '@/components/newsletter/templates/templateOptions'
+import Addtemplate from '@/components/newsletter/inputs/addtemplate'
+import SelectNewsTemplate from '@/components/newsletter/selectNewsTemplate'
+import { RootState } from '@/store'
+import { setShowSelectTemplate } from '@/store/slices/newsletter'
+import NewsTemplate from '@/components/newsletter/templates/news'
+import NewsletterForms from '@/components/newsletter/newsletterForms'
 
 const Newsletter = () => {
-  const { color, textHeader } = useSelector((state: any) => state.newsletter)
-  const { haveSponsored, imgSponsored, imgHeader } = useSelector(
-    (state: any) => state.newsletter
-  )
+  const dispatch = useDispatch()
+  const {
+    templates: {
+      header: { haveSponsored, imgSponsored, imgHeader, color, textHeader },
+      news
+    },
+    showSelectTemplate,
+    templateIdEditing
+  } = useSelector((state: RootState) => state.newsletter)
+
+  const hanldleClickAddTemplate = () => {
+    dispatch(setShowSelectTemplate(true))
+  }
 
   return (
     <div className={styles.container}>
       <div className={styles.menu}>
-        <FormNewsletter />
-        <Fab
+        {showSelectTemplate ? (
+          <SelectNewsTemplate />
+        ) : (
+          <NewsletterForms id={templateIdEditing} />
+        )}
+
+        {/* <Fab
           variant="extended"
           size="small"
           style={{
@@ -29,16 +46,34 @@ const Newsletter = () => {
           aria-label="add"
         >
           <CardEdit size="20" variant="Outline" />
-        </Fab>
+        </Fab> */}
       </div>
       <div className={styles.preview}>
-        <HeaderTemplate
-          color={color}
-          Texto={textHeader}
-          haveSponsored={haveSponsored}
-          logo={imgHeader}
-          sponsor={imgSponsored}
-        />
+        <TemplatesOptions from="header" id={'0'}>
+          <HeaderTemplate
+            color={color}
+            Texto={textHeader}
+            haveSponsored={haveSponsored}
+            logo={imgHeader}
+            sponsor={imgSponsored}
+          />
+        </TemplatesOptions>
+        {news.map((item, index) => {
+          return (
+            <TemplatesOptions key={index} id={item.id}>
+              <NewsTemplate
+                textHeader={item.textHeader}
+                img={item.img}
+                title={item.title}
+                readingTime={item.readingTime}
+                tags={item.tags}
+                text={item.text}
+                color={item.color}
+              />
+            </TemplatesOptions>
+          )
+        })}
+        <Addtemplate onClick={hanldleClickAddTemplate} />
       </div>
     </div>
   )

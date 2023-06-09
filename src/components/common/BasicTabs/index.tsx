@@ -20,6 +20,7 @@ const TabPanel = (props: TabPanelProps) => {
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}
       aria-labelledby={`simple-tab-${index}`}
+      style={{ overflowY: 'scroll', height: 'calc(100vh - 49px)' }}
       {...other}
     >
       {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
@@ -59,9 +60,10 @@ type tabs = {
 interface BasicTabsProps {
   tabPanels: tabPanels[]
   tabs: tabs[]
+  submitForm?: () => void
 }
 
-const BasicTabs = ({ tabPanels, tabs }: BasicTabsProps) => {
+const BasicTabs = ({ tabPanels, tabs, submitForm }: BasicTabsProps) => {
   const [value, setValue] = React.useState(0)
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {

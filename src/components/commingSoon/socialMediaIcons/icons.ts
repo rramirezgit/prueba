@@ -25,18 +25,18 @@ export const icons = [
     name: 'facebook',
     url: socialMediaIcons.facebook,
     href: 'https://www.facebook.com/profile.php?id=100090649664671'
-  },
-  {
-    name: 'Discord',
-    url: socialMediaIcons.discord
-  },
-  {
-    name: 'Reddit',
-    url: socialMediaIcons.reddit,
-    href: 'https://www.reddit.com/r/ADAC_Blog/'
-  },
-  {
-    name: 'left',
-    url: socialMediaIcons.left
   }
+  // {
+  //   name: 'Discord',
+  //   url: socialMediaIcons.discord
+  // },
+  // {
+  //   name: 'Reddit',
+  //   url: socialMediaIcons.reddit,
+  //   href: 'https://www.reddit.com/r/ADAC_Blog/'
+  // },
+  // {
+  //   name: 'left',
+  //   url: socialMediaIcons.left
+  // }
 ]

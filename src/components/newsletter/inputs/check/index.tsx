@@ -12,7 +12,12 @@ const Check = ({ name, label }: Props) => {
   return (
     <FormControlLabel
       control={
-        <Checkbox color="success" {...field} defaultChecked={field.value} />
+        <Checkbox
+          color="success"
+          checked={field.value}
+          onChange={field.onChange}
+          name={name}
+        />
       }
       label={label}
       style={{

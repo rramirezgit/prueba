@@ -1,4 +1,5 @@
 interface Colors {
+  gray: string
   primary_text: string
   secondary_text: string
   gray_text: string
@@ -22,6 +23,7 @@ export const sizes = {
 }
 
 export const colors: Colors = {
+  gray: '#a1acbb',
   // text //
   primary_text: '#29394E',
   secondary_text: '#B7C9CF',

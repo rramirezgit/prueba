@@ -1,12 +1,12 @@
 import React from 'react'
-import Layout from '../layout'
+import Layout from '../../layout'
 import TextBoxEditor from '@/components/newsletter/inputs/TextBoxEditor'
 
 const TextHeader = () => {
   return (
     <>
-      <Layout title="Encabezado">
-        <TextBoxEditor name="textHeader" />
+      <Layout>
+        <TextBoxEditor name="textHeader" label="editar" />
       </Layout>
     </>
   )

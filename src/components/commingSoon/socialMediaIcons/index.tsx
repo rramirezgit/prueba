@@ -1,48 +1,45 @@
 import styles from './socialMedia.module.css'
 import Image from 'next/image'
 import { icons } from './icons'
-import Expanded, { StyledIconButton } from './expanded'
-import { Box, useMediaQuery } from '@mui/material'
+import { CSSObject, IconButton, IconButtonProps, styled } from '@mui/material'
+import { colors } from '@/styles/variables'
+
+interface StyledIconButtonProps extends IconButtonProps {
+  w?: number
+  h?: number
+}
+
+export const StyledIconButton = styled((props: StyledIconButtonProps) => (
+  <IconButton {...props} />
+))<StyledIconButtonProps>(
+  ({ w, h }: StyledIconButtonProps): CSSObject => ({
+    backgroundColor: colors.secondary_blue,
+    width: `${w}px`,
+    height: `${h}px`,
+    '&:hover': {
+      backgroundColor: colors.primary_blue
+    }
+  })
+)
 
 const IconSocial = ({ item, index }: any) => (
-  <StyledIconButton
-    aria-label="social-media"
-    key={index}
-    onClick={() => {
-      window.open(item.href, '_blank')
-    }}
-  >
+  <StyledIconButton aria-label="social-media" key={index} w={36.47} h={36.47}>
     <Image alt={item.name} height={18.24} src={item.url} width={18.24} />
   </StyledIconButton>
 )
 
 export default function SocialMediaIcons() {
-  const matches = useMediaQuery('(min-width:900px)')
-
-  function shouldRenderIcon(index: number) {
-    return index > 3
-  }
-
-  function renderIcons() {
-    return icons.map((item, index) => {
-      if (shouldRenderIcon(index)) return null
-      return <div key={index}>{<IconSocial item={item} index={index} />}</div>
-    })
-  }
-
-  function renderIconsMobile() {
-    return icons.map((item, index) => {
-      if (item.name === 'left') return null
-      return <div key={index}>{<IconSocial item={item} index={index} />}</div>
-    })
-  }
-
   return (
-    <div className={styles.social}>
-      {!matches ? renderIconsMobile() : renderIcons()}
-      <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-        <Expanded />
-      </Box>
-    </div>
+    <>
+      <div className={styles.social}>
+        {icons.map((item, index) => {
+          return (
+            <>
+              <IconSocial item={item} index={index} />
+            </>
+          )
+        })}
+      </div>
+    </>
   )
 }
