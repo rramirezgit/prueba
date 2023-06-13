@@ -1,12 +1,11 @@
 import { colors } from '@/styles/variables'
 import { GalleryExport } from 'iconsax-react'
-import React, { use, useCallback, useMemo } from 'react'
+import React, { useMemo } from 'react'
 import { useDropzone } from 'react-dropzone'
 import styles from './dropZone.module.css'
 import { Button } from '@mui/material'
 import { useField } from 'formik'
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
 
 const baseStyle = {
   flex: 1,
@@ -41,7 +40,7 @@ interface DropZoneProps {
 }
 
 const DropZone = ({ label, ...props }: DropZoneProps) => {
-  const [field, meta, helpers] = useField(props)
+  const [, , helpers] = useField(props)
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
   const handleDrop = (acceptedFiles: File[]) => {

@@ -23,23 +23,23 @@ export const StyledIconButton = styled((props: StyledIconButtonProps) => (
 )
 
 const IconSocial = ({ item, index }: any) => (
-  <StyledIconButton aria-label="social-media" key={index} w={36.47} h={36.47}>
+  <StyledIconButton
+    aria-label="social-media"
+    key={index}
+    w={36.47}
+    h={36.47}
+    onClick={() => window.open(item.href, '_blank')}
+  >
     <Image alt={item.name} height={18.24} src={item.url} width={18.24} />
   </StyledIconButton>
 )
 
 export default function SocialMediaIcons() {
   return (
-    <>
-      <div className={styles.social}>
-        {icons.map((item, index) => {
-          return (
-            <>
-              <IconSocial item={item} index={index} />
-            </>
-          )
-        })}
-      </div>
-    </>
+    <div className={styles.social}>
+      {icons.map((item, index) => {
+        return <IconSocial item={item} index={index} key={index} />
+      })}
+    </div>
   )
 }

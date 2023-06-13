@@ -5,11 +5,7 @@ import { useDispatch } from 'react-redux'
 import { addNews, setShowSelectTemplate } from '@/store/slices/newsletter'
 import { add } from 'date-fns'
 
-interface SelectNewsTemplateProps {
-  show?: boolean
-}
-
-const SelectNewsTemplate = ({ show }: SelectNewsTemplateProps) => {
+const SelectNewsTemplate = () => {
   const dispatch = useDispatch()
   const handleClickClose = () => {
     dispatch(setShowSelectTemplate(false))

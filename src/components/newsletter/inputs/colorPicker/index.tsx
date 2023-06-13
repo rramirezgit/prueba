@@ -19,7 +19,7 @@ interface Props {
 }
 
 const ColorPicker = ({ label, name, ...props }: Props) => {
-  const [field, meta, helpers] = useField(name)
+  const [field] = useField(name)
   return (
     <>
       <div className={styles.wrap}>
