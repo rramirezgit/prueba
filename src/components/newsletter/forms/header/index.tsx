@@ -8,11 +8,10 @@ import { RootState } from '@/store'
 
 const HeaderForm = () => {
   const {
-    templates: { news },
-    templateIdEditing
+    templates: { header }
   } = useSelector((state: RootState) => state.newsletter)
 
-  const inialValuesForm = initialValues(templateIdEditing, news)
+  const inialValuesForm = initialValues(header)
   const validationSchemaForm = validationSchema()
 
   return (

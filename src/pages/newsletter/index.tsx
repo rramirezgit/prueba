@@ -9,6 +9,7 @@ import { RootState } from '@/store'
 import { setShowSelectTemplate } from '@/store/slices/newsletter'
 import NewsTemplate from '@/components/newsletter/templates/news'
 import NewsletterForms from '@/components/newsletter/newsletterForms'
+import FinishButton from '@/components/newsletter/inputs/finishButton'
 
 const Newsletter = () => {
   const dispatch = useDispatch()
@@ -74,6 +75,7 @@ const Newsletter = () => {
           )
         })}
         <Addtemplate onClick={hanldleClickAddTemplate} />
+        <FinishButton />
       </div>
     </div>
   )

@@ -40,7 +40,7 @@ interface DropZoneProps {
 }
 
 const DropZone = ({ label, ...props }: DropZoneProps) => {
-  const [, , helpers] = useField(props)
+  const [field, meta, helpers] = useField(props)
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
   const handleDrop = (acceptedFiles: File[]) => {

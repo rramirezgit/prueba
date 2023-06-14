@@ -1,15 +1,23 @@
 import { Formik } from 'formik'
-import React from 'react'
+import React, { useEffect } from 'react'
 import initialValues from './initialValues'
 import validationSchema from './validationSchema'
 import NewsOptions from './newsOptions'
+import { useSelector } from 'react-redux'
+import { RootState } from '@/store'
 
 interface NewsFormProps {
   id: string
 }
 
 const NewsForm = ({ id }: NewsFormProps) => {
-  const inialValuesForm = initialValues()
+  const [valuesState, setValues] = React.useState({} as any)
+
+  const {
+    templates: { news }
+  } = useSelector((state: RootState) => state.newsletter)
+  debugger
+  const inialValuesForm = initialValues(news.find(item => item.id === id))
   const validationSchemaForm = validationSchema()
   return (
     <Formik

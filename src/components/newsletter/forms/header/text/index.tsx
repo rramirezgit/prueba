@@ -6,7 +6,7 @@ const TextHeader = () => {
   return (
     <>
       <Layout>
-        <TextBoxEditor name="textHeader" label="editar" />
+        <TextBoxEditor name="textHeader" label="" />
       </Layout>
     </>
   )
